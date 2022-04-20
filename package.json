@@ -1,0 +1,25 @@
+{
+  "name": "starter-karate-dsl-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/test.js",
+    "test:run": "npm run test -- ./src/features \"-t @run\"",
+    "test:gql": "npm run test -- ./src/features \"-t @graphql_examples\"",
+    "test:parallel": "npm run test -- ./src/features \"-t @run\" \"-T 5\" \"-C\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlyautomatiza/starter-karate-dsl-npm.git"
+  },
+  "author": "CharlyAutomatiza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlyautomatiza/starter-karate-dsl-npm/issues"
+  },
+  "homepage": "https://github.com/charlyautomatiza/starter-karate-dsl-npm#readme",
+  "dependencies": {
+    "@karatelabs/karate": "^0.2.1"
+  }
+}
