@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./src/test.js",
-    "test:run": "npm run test -- ./src/features \"-t @run\"",
+    "clean": "npm run test -- -C",
+    "test:run": "npm run test -- ./src/features \"-t @run\" -f junit:xml",
     "test:gql": "npm run test -- ./src/features \"-t @graphql_examples\"",
     "test:parallel": "npm run test -- ./src/features \"-t @run\" \"-T 5\" \"-C\""
   },
