@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/charlyautomatiza/starter-karate-dsl-npm#readme",
   "dependencies": {
-    "@karatelabs/karate": "^0.2.1"
+    "@karatelabs/karate": "^0.2.2"
   }
 }
